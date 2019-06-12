@@ -91,8 +91,8 @@ struct file_operations {
 前提是下载VirtualBox安装一个低版本的linux系统 打开命令行</br>
 使用mkdir 创建一个文件 存放我们.c文件 我这里用一个VPS来演示。</br>
 
-![5d00899379a4011466.jpg.jpg](https://i.loli.net/2019/06/12/5d00899379a4011466.jpg)
-![1.jpg](https://i.loli.net/2019/06/12/5d0089937a23a63207.jpg)
+![5d00899379a4011466.jpg.jpg](https://i.loli.net/2019/06/12/5d00899379a4011466.jpg)</br>
+![1.jpg](https://i.loli.net/2019/06/12/5d0089937a23a63207.jpg)</br>
 1.使用Vim MemDev.c 命令创建驱动程序  (进入后按 i 才能输入 然后直接粘贴 这是vim编辑器语法)</br>
 ```
 #include <linux/module.h>
